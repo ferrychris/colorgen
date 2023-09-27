@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    transition: 1s ease-in-out;
+}
+
+
+#genbtn{
+    
+   box-shadow: 3px 3px 5px 6px #cccccc;
+   transition: 1s;
+
+}
+#genbtn:hover{
+    background-color: red;
+    color: white
+}
+
+#sharebox{
+   
+    cursor: pointer;
+
+    
+    
+}
+#sharebox :hover{
+    width: 45px;
+    height: 50px;
+}
+#hexbk{
+  
+    
+    box-shadow: 3px 3px 5px 6px #ccc;
+    
+}
+
+#copy{
+    
+
+    transition: 1s;
+    cursor: pointer;
+}
+#copy:hover{
+    width: 30px;
+    height: 40px;
+}
+
+#footer{
+    text-align: center;
+    font: bolder;
+    background-color: rgb(151, 119, 79);
+}
+#footerbox{
+margin-top: 100px;
+color: beige;
+}
+
+.loader{
+ position:fixed;
+ top:0;
+ left:0; 
+ background:lightgray;
+ height:100%;
+ width:100%; 
+ display:flex;
+ justify-content:center;
+ align-items: center;
+ z-index: 99999;
+}
+
+.disppear{
+  animation:vanish 5s forwards;
+}
+  @keyframes vanish {
+    100%{
+     opacity:0;
+     visibility:hidden;
+    }
+  }

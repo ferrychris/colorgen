@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/color.css">
+    <!-- BEGIN SHAREAHOLIC CODE -->
+    <link rel="preload" href="https://cdn.shareaholic.net/assets/pub/shareaholic.js" as="script" />
+    <meta name="shareaholic:site_id" content="52be8a7c5bb344390bc118df0431cb71" />
+    <script data-cfasync="false" async src="https://cdn.shareaholic.net/assets/pub/shareaholic.js"></script>
+    <!-- END SHAREAHOLIC CODE -->
+</head>
+
+<body id="body" class="bg-black container">
+    <!-- <div class="loader">
+        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/b6e0b072897469.5bf6e79950d23.gif"
+            alt="load"></img>
+    </div> -->
+
+    <!-- <div class="img">
+        <img src='https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg' style="height:100%;width:100%;"></img>
+      </div> -->
+    <div class="container">
+        <header class="block md:flex lg:flex md:justify-between ml-[10%] relative bg-black text-white lg:px-5 lg:pt-3 lg:pb-2 md:px-5 pt-3 pb-2  lg:bg-white lg:text-black">
+            <div>
+                <h1 id="logo" class= "text-2xl font-extrabold text-red-600">Rag<span>ez</span></h1>
+                
+            </div>
+            <div>
+                <h5 id="sideoflogo" class="text-xl font-semibold">
+                    Click Space Bar to Change Pallete</h5>
+            </div>
+            <div id="sharebox" class="cursor-pointer">
+                <img src="./images/share.svg" width="30px" height="40px" id="share" alt="">
+                <p class="relative">Share</p>
+            </div>
+
+        </header>
+        <!--  -->
+        <div class="justify-center mt-4 flex ">
+            <button id="genbtn" class="bg-[#eb5309]  lg:ml[950px] text-white px-8 py-4 rounded-lg" onclick="generate()">Generate Color
+                <div class="spinner-border"></div>
+            </button>
+        </div>
+
+        <div id="colorbox" class="block md:flex justify-center  mr-4 mt-10 ">
+            <div id="hexbk" class=" py-[30px] md:px-20 md:py-[80px] ml-1 rounded-sm">
+                <p id="hexi" value="erueryu"></p><br>
+                <img src="./images/copy.svg" class="w-7" id="copy"></button><br>
+            </div>
+            <div id="hexbk" class="px-20 py-[80px] ml-2 rounded-sm">
+                <p id="hexi" value="erueryu"></p><br>
+                <img src="./images/copy.svg" class="w-7" alt="" id="copy"></button><br>
+            </div>
+            <div id="hexbk" class="px-20 py-[80px] ml-1">
+                <p id="hexi"></p><br>
+                <img src="./images/copy.svg" alt="" class="w-7" id="copy"></button><br>
+
+            </div>
+            <div id="hexbk" class="px-20 py-[80px] ml-1">
+                <p id="hexi"></p><br>
+                <img src="./images/copy.svg" alt="" class="w-7" id="copy"></button><br>
+
+            </div>
+            <div id="hexbk" class="px-20 py-[80px] ml-1">
+                <p id="hexi"></p><br>
+                <img src="./images/copy.svg" alt="" class="w-7" id="copy"></button><br>
+
+            </div>
+
+
+
+
+        </div>
+        <div id="footerbox">
+            <footer id="footer"> Raymond Ferdinard=>2023</footer>
+        </div>
+
+        <script src="color.js"></script>
+        <script src="https://kit.fontawesome.com/2d44dfd46b.js" crossorigin="anonymous"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</body>
+
+</html> 
